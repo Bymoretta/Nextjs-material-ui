@@ -1,11 +1,20 @@
-import { AppBar, Toolbar, Typography,Button,MenuIcon, } from "@material-ui/core";
+import { AppBar, Toolbar, Typography,Button,MenuIcon, } from "@mui/material";
+import React from "react";
 
 
 
 
 const Navbar = () => {
     return (
-        <h1></h1>
+        <React.Fragment>
+            <AppBar>
+                <Toolbar>
+                <Typography>
+                    hola
+                </Typography>
+                </Toolbar>
+            </AppBar>
+        </React.Fragment>
     )
 }
 

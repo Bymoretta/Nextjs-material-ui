@@ -29,7 +29,7 @@ export default function Home() {
         <h1>
           Carl Sagan
         </h1>
-        <img className={Sagan} src= "sagan.jpg" alt='Sagan' />
+        <img className={Sagan} src= "/sagan.jpg" alt='Sagan' />
         <nav>
           <ul>
             <li>
